@@ -1,6 +1,5 @@
 @import "config";
 @import "menu";
-@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -66,7 +65,7 @@ header {
 
 main {
   padding: 4rem;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 
   .icons {
     margin-top: 1rem;
@@ -135,3 +134,5 @@ main {
   color: set-text-color($primary-color);
   height: 60px;
 }
+
+@import "mobile";
